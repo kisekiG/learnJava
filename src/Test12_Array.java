@@ -13,6 +13,11 @@ public class Test12_Array {
         getIndex(arr, 55);
     }
 
+    /**
+     * @param arr 数组参数
+     *            循环数组
+     * @author kisekiG
+     */
     public static void forArray(int[] arr) {
         int max = arr[0];
         int min = arr[0];
@@ -26,6 +31,10 @@ public class Test12_Array {
 
     }
 
+    /**
+     * @param arr 数组参数
+     * @author kisekiG
+     */
     public static void reverseArray(int[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];
